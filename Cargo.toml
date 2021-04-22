@@ -1,0 +1,13 @@
+[package]
+name = "rsbios"
+version = "0.0.1"
+authors = ["Eric <ehock7229@outlook.com>"]
+build = "build.rs"
+publish = false
+
+[dependencies]
+cpuid = "0.1.1"
+x86 = "0.37.0"
+
+[build-dependencies]
+cc = "1.0.67"
