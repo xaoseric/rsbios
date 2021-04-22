@@ -4,6 +4,7 @@
 extern crate cpuid;
 
 mod metadata;
+
 use metadata::bios_metadata::BIOSMetadata;
 
 pub extern fn rust_start(_bist: u32) {

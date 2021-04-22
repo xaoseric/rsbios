@@ -2,7 +2,7 @@
 BUILD_DIR := build
 
 # The BIOS as an ELF executable.
-bios_elf := target/x86_64-bios/debug/biors.elf
+bios_elf := target/x86_64-bios/debug/rsbios.elf
 
 # The BIOS ROM image.
 bios_bin := $(BUILD_DIR)/bios.bin

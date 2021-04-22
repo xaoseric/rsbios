@@ -8,6 +8,7 @@ publish = false
 [dependencies]
 cpuid = "0.1.1"
 x86 = "0.37.0"
+vga = "0.2.6"
 
 [build-dependencies]
 cc = "1.0.67"
